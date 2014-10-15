@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.3'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -27,6 +27,9 @@ gem 'spring',        group: :development
 
 #Add bootstrap gem
 gem 'bootstrap-sass', '~> 3.2.0.2'
+
+#add devise gem
+gem 'devise'
 
 #set up for heroku
 group :development, :test do
